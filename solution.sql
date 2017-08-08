@@ -1,0 +1,2 @@
+--1 SELECT * FROM syntax_practice WHERE city = 'chicago';
+--2
