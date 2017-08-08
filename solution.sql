@@ -9,4 +9,13 @@
 
 --5  SELECT * FROM syntax_practice ORDER BY account_balance DESC LIMIT 3;
 
---6  
+--6  SELECT * FROM syntax_practice ORDER BY account_balance ASC LIMIT 3;
+
+--7 SELECT * FROM syntax_practice ORDER BY account_balance ASC LIMIT 3;
+
+--8 INSERT INTO syntax_practice (username, city, transactions_completed, transactions_attempted, account_balance)
+--8 VALUES ('ami', 'minneapolis', 10, 20, 555.55);
+
+--9 DELETE FROM syntax_practice WHERE transactions_completed < 5
+--9 AND (city = 'miami' or city = 'phoenix'); 
+
