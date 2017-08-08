@@ -11,7 +11,7 @@
 
 --6  SELECT * FROM syntax_practice ORDER BY account_balance ASC LIMIT 3;
 
---7 SELECT * FROM syntax_practice ORDER BY account_balance ASC LIMIT 3;
+--7 SELECT * FROM syntax_practice WHERE account_balance > 100;
 
 --8 INSERT INTO syntax_practice (username, city, transactions_completed, transactions_attempted, account_balance)
 --8 VALUES ('ami', 'minneapolis', 10, 20, 555.55);
